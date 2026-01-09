@@ -14,3 +14,9 @@ out_*.txt
 cache/
 geocode_cache.json
 
+*.bak
+*.bak2
+*Backup*
+sites.json
+__pycache__/
+
