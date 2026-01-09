@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Output-Dateien
+out_*.html
+out_*.txt
+*.geojson
+
+# Cache
+cache/
+geocode_cache.json
+

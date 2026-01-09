@@ -1,0 +1,25 @@
+{
+  "depot_address": "Bahnhofstraße 27, 69437 Neckargerach, Deutschland",
+  "probe_minutes_per_site": 40,
+  "region_hint": null,
+  "validation": {
+    "bbox_hint": [8.8, 49.1, 9.7, 49.7],
+    "reject_outside_bbox": false
+  },
+  "nominatim": {
+    "base_url": "https://nominatim.openstreetmap.org",
+    "user_agent": "lkw-routing/1.0 (contact: malte.wirth@gmx.de)",
+    "min_seconds_between_requests": 1.1,
+    "timeout_seconds": 60,
+    "max_retries":6,
+    "backoff_seconds": 1.5
+  },
+  "osrm": {
+    "base_url": "https://router.project-osrm.org",
+    "profile": "car",
+    "timeout_seconds": 60,
+    "max_retries": 6,
+    "backoff_seconds": 1.5
+  }
+}
+
